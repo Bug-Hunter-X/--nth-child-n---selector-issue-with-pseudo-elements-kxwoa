@@ -1,0 +1,1 @@
+The CSS rule `:nth-child(n)` selector does not work correctly when used with pseudo-elements like `::before` or `::after`. It only selects the nth-child element of the parent, not the nth pseudo-element.
