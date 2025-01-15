@@ -1,0 +1,13 @@
+/* bugSolution.css */
+.container::before {
+  content: 'This is a pseudo-element';
+  background-color: lightblue; /* styles directly applied to pseudo-element */
+}
+
+.container:nth-child(odd)::before {
+  color:blue;
+}
+
+.container:nth-child(even)::before{
+  color:red;
+}
